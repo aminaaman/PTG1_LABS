@@ -1,0 +1,5 @@
+/Users/Adela/Projects/Complex/Complex/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Adela/Projects/Complex/Complex/bin/Debug/Complex.exe.mdb
+/Users/Adela/Projects/Complex/Complex/bin/Debug/Complex.exe
+/Users/Adela/Projects/Complex/Complex/obj/x86/Debug/Complex.exe
+/Users/Adela/Projects/Complex/Complex/obj/x86/Debug/Complex.exe.mdb
