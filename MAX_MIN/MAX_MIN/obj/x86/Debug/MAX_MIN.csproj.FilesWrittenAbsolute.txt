@@ -1,0 +1,5 @@
+/Users/Adela/Projects/MAX_MIN/MAX_MIN/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Adela/Projects/MAX_MIN/MAX_MIN/bin/Debug/MAX_MIN.exe.mdb
+/Users/Adela/Projects/MAX_MIN/MAX_MIN/bin/Debug/MAX_MIN.exe
+/Users/Adela/Projects/MAX_MIN/MAX_MIN/obj/x86/Debug/MAX_MIN.exe
+/Users/Adela/Projects/MAX_MIN/MAX_MIN/obj/x86/Debug/MAX_MIN.exe.mdb

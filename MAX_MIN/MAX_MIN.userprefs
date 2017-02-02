@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{9EDFB34D-12D9-4281-A069-782BA43DE138}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Primenumber/Program.cs">
+﻿<Properties StartupConfiguration="{493545E6-4BFF-496A-AAAE-9711AC1337FD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAX_MIN/Program.cs">
     <Files>
-      <File FileName="Primenumber/Program.cs" Line="42" Column="5" />
+      <File FileName="MAX_MIN/Program.cs" Line="46" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -9,6 +9,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Primenumber PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MAX__MIN PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
