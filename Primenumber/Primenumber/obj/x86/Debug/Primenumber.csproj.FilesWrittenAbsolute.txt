@@ -1,0 +1,5 @@
+/Users/Adela/Projects/Primenumber/Primenumber/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Adela/Projects/Primenumber/Primenumber/bin/Debug/Primenumber.exe.mdb
+/Users/Adela/Projects/Primenumber/Primenumber/bin/Debug/Primenumber.exe
+/Users/Adela/Projects/Primenumber/Primenumber/obj/x86/Debug/Primenumber.exe
+/Users/Adela/Projects/Primenumber/Primenumber/obj/x86/Debug/Primenumber.exe.mdb
