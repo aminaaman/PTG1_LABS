@@ -1,0 +1,5 @@
+/Users/Adela/Projects/Prime_Min_inFile/Prime_Min_inFile/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Adela/Projects/Prime_Min_inFile/Prime_Min_inFile/bin/Debug/Prime_Min_inFile.exe.mdb
+/Users/Adela/Projects/Prime_Min_inFile/Prime_Min_inFile/bin/Debug/Prime_Min_inFile.exe
+/Users/Adela/Projects/Prime_Min_inFile/Prime_Min_inFile/obj/x86/Debug/Prime_Min_inFile.exe
+/Users/Adela/Projects/Prime_Min_inFile/Prime_Min_inFile/obj/x86/Debug/Prime_Min_inFile.exe.mdb
