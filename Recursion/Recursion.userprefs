@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F3FEF7EC-C396-45EA-98B6-93EBB9469BD1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Recursion/Program.cs">
+    <Files>
+      <File FileName="Recursion/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Recursion PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
