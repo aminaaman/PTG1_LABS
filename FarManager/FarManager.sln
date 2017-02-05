@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager", "FarManager\FarManager.csproj", "{2A5B8176-E4D3-485B-8C80-E83C789551FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A5B8176-E4D3-485B-8C80-E83C789551FF}.Debug|x86.ActiveCfg = Debug|x86
+		{2A5B8176-E4D3-485B-8C80-E83C789551FF}.Debug|x86.Build.0 = Debug|x86
+		{2A5B8176-E4D3-485B-8C80-E83C789551FF}.Release|x86.ActiveCfg = Release|x86
+		{2A5B8176-E4D3-485B-8C80-E83C789551FF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
