@@ -5,7 +5,7 @@ namespace FarManager
 {
 		class MainClass
 		{
-			static void ShowInfo(DirectoryInfo directory, int cursor)
+			static void ShowInfo(DirectoryInfo directory, int cursor) //function to show folders and files with color(background and font color) 
 			{
 				Console.BackgroundColor = ConsoleColor.Blue;
 				int index = 0;
@@ -28,12 +28,13 @@ namespace FarManager
 
 			static void Main(string[] args)
 			{
-				int cursor = 0;
+				//initialize the datas 
+				int cursor = 0; 
 				DirectoryInfo directory = new DirectoryInfo(@"/Users/Adela/Desktop");
-				while (true)
+				while (true) //endless cycle
 				{
-					Console.Clear();
-					ShowInfo(directory, cursor);
+					Console.Clear();  //to clear a window when another folder was opened
+					ShowInfo(directory, cursor); //call function to display folders and files 
 					ConsoleKeyInfo pressedKey = Console.ReadKey();
 					if (pressedKey.Key == ConsoleKey.UpArrow)
 						if (cursor > 0)
@@ -43,24 +44,26 @@ namespace FarManager
 							cursor++;
 					if (pressedKey.Key == ConsoleKey.Enter)
 					{
-						FileSystemInfo fi = directory.GetFileSystemInfos()[cursor];
-						if (fi.GetType() == typeof(DirectoryInfo))
+						FileSystemInfo fi = directory.GetFileSystemInfos()[cursor]; //create a FileSystemInfo because we don't know type of the element 
+						//if it is a folder, open folders in this folder
+						if (fi.GetType() == typeof(DirectoryInfo))  //function GetType() is used to identify type of the element 
 							directory = new DirectoryInfo(fi.FullName);
 						else
 						{
+							//read from this file datas
 							StreamReader sr = new StreamReader(fi.FullName);
-							Console.Clear();
-							Console.WriteLine(sr.ReadToEnd());
+							Console.Clear();  //to clear a window when another folder was opened
+							Console.WriteLine(sr.ReadToEnd()); //display this datas on console 
 							sr.Close();
 							Console.ReadKey();
 						}
 
 					}
-				if (pressedKey.Key == ConsoleKey.Backspace)
+				if (pressedKey.Key == ConsoleKey.Backspace) 
 					{
 						try
 						{
-							directory = Directory.GetParent(directory.FullName);
+							directory = Directory.GetParent(directory.FullName);  //go back to the previous folder 
 						}
 						catch (Exception e)
 						{
