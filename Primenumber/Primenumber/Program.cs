@@ -19,11 +19,10 @@ namespace Primenumber
 
 		static void Main(string[] args)
 		{
-			/* to enter numbers after the running program
-			 * 
-			string s = Console.ReadLine(); // input numbers
-			string[] arr = s.Split(); // split numbers 
-			*/
+			
+			string a = Console.ReadLine(); // input numbers
+			string[] arr = a.Split(); // split numbers 
+
 
 			//The set is given as input string into a variable string [] args
 			int n = args.Length;
