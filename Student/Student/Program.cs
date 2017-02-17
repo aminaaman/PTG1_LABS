@@ -28,7 +28,7 @@ namespace Student
 		static void Main(string[] args)
 		{
 			Student s = new Student("Amina", "Aman", 25, 3.8); //creating a new variable
-			Console.WriteLine(s.ToString()); //output by ToString
+			Console.WriteLine(s); //output by ToString
 			Console.ReadKey();
 		}
 	}
