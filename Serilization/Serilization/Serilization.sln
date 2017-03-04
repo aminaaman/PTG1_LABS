@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilization", "Serilization.csproj", "{F7C41B13-E2EF-4489-85B0-3AE269E12F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C41B13-E2EF-4489-85B0-3AE269E12F95}.Debug|x86.ActiveCfg = Debug|x86
+		{F7C41B13-E2EF-4489-85B0-3AE269E12F95}.Debug|x86.Build.0 = Debug|x86
+		{F7C41B13-E2EF-4489-85B0-3AE269E12F95}.Release|x86.ActiveCfg = Release|x86
+		{F7C41B13-E2EF-4489-85B0-3AE269E12F95}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
