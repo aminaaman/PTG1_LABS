@@ -1,10 +1,15 @@
 ﻿using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 namespace Complex
 {
-	class Program
+	public class Program
 	{
-		class Complex
+		[Serializable]
+		public class Complex
 		{
 			public int x;
 			public int y;
@@ -57,6 +62,26 @@ namespace Complex
 			Complex sub = a - b;
 			Complex mult = a * b;
 			Complex div = a / b;
+
+			FileStream fa = new FileStream("sum.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+			BinaryFormatter ba = new BinaryFormatter();
+			ba.Serialize(fa, sum);
+			fa.Close();
+
+			FileStream fb = new FileStream("sub.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+			BinaryFormatter bb = new BinaryFormatter();
+			bb.Serialize(fb, sum);
+			fb.Close();
+
+			FileStream fc = new FileStream("mult.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+			BinaryFormatter bc = new BinaryFormatter();
+			bc.Serialize(fc, sum);
+			fc.Close();
+
+			FileStream fd = new FileStream("div.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+			BinaryFormatter bd = new BinaryFormatter();
+			bd.Serialize(fd, sum);
+			fd.Close();
 
 			//show results 
 			//we rewrited ToString, so we can just write variables we want to output

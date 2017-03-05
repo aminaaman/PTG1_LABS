@@ -9,21 +9,22 @@ namespace FarManager
 			{
 				Console.BackgroundColor = ConsoleColor.Blue;
 				int index = 0;
-				foreach (FileSystemInfo fInfo in directory.GetFileSystemInfos())
-				{
-					if (index == cursor)
-						Console.ForegroundColor = ConsoleColor.Red;
-					else
-						Console.ForegroundColor = ConsoleColor.Yellow;
-					index++;
-					if (fInfo.GetType() == typeof(FileInfo))
-						Console.Write("File: ");
-					else
-						Console.Write("Directory: ");
-					Console.WriteLine(fInfo.Name);
-
-
-				}
+			foreach (FileSystemInfo fInfo in directory.GetFileSystemInfos())
+			{
+				if (index == cursor)
+					Console.ForegroundColor = ConsoleColor.Yellow;
+				else
+					Console.ForegroundColor = ConsoleColor.Black;
+				index++;
+				if (fInfo.GetType() == typeof(FileInfo))
+					Console.Write("File: ");
+				else
+					Console.Write("Directory: ");
+				Console.WriteLine(fInfo.Name);
+					
+				
+			}
+				
 			}
 
 			static void Main(string[] args)

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Amina
+namespace XML_SER
 {
 	class MainClass
 	{

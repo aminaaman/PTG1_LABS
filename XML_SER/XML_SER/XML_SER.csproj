@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{A30CE608-BD58-4008-B526-648F99BACC70}</ProjectGuid>
+    <ProjectGuid>{88288824-FF8A-46A5-95B2-0B2F3EE5533B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Classwork_week4_ex2</RootNamespace>
-    <AssemblyName>Classwork_week4_ex2</AssemblyName>
+    <RootNamespace>XML_SER</RootNamespace>
+    <AssemblyName>XML_SER</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
